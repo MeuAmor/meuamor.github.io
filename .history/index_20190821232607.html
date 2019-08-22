@@ -154,7 +154,7 @@
     </div>
     <div class="col-md-6" style="margin-top: 5%;margin-bottom: 5%;">
         <div class="card card-body">
-            <h2 id="openVideos" style="text-align:center;">
+            <h2 style="text-align:center;">
                 <div class="text-center">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-film">
@@ -173,7 +173,7 @@
                 </div>
             </h2>
             <hr>
-            <div id="videos" class="row hide">
+            <div class="row">
                 <div class="col-md-12 text-center" style="color: blueviolet;">
                     <a href="https://drive.google.com/drive/folders/1cs1njrZBseK-pT5WebYxWXJ5JDjdfowP?usp=sharing" class="btn btn-info "> 
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
@@ -213,18 +213,6 @@
         {
             $("#frases").removeClass('show');
             $("#frases").addClass('hide');
-        }
-    });
-    $("#openVideos").click(function(){
-        if($("#videos").hasClass('hide'))
-        {
-            $("#videos").removeClass('hide');
-            $("#videos").addClass('show');
-        }
-        else
-        {
-            $("#videos").removeClass('show');
-            $("#videos").addClass('hide');
         }
     });
 </script>
